@@ -1,0 +1,4 @@
+[build]
+  base = "اسم-المجلد-الفرعي"
+  command = "npm run build"
+  publish = ".next"
