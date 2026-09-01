@@ -1,0 +1,38 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Decorative arch -->
+  <path d="M100 20 C60 20 40 60 40 100 L40 120 C40 125 45 130 50 130 L50 120 C50 80 70 40 100 40 C130 40 150 80 150 120 L150 130 C155 130 160 125 160 120 L160 100 C160 60 140 20 100 20Z" fill="#DEB887" opacity="0.6"/>
+  
+  <!-- Steam -->
+  <path d="M100 50 Q105 60 100 70 Q95 80 100 90" stroke="#8B4513" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Cup body -->
+  <ellipse cx="100" cy="90" rx="35" ry="10" fill="#FFF8E7" stroke="#8B4513" stroke-width="2"/>
+  <path d="M65 90 L70 140 Q100 155 130 140 L135 90" fill="#FFF8E7" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Cup handle -->
+  <path d="M130 100 Q150 100 150 120 Q150 140 130 140" stroke="#8B4513" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Decorative patterns on cup -->
+  <path d="M70 105 L130 105" stroke="#8B4513" stroke-width="1.5"/>
+  <path d="M72 112 L80 108 L88 112 L96 108 L104 112 L112 108 L120 112 L128 108" stroke="#8B4513" stroke-width="1.5" fill="none"/>
+  <path d="M70 120 L130 120" stroke="#8B4513" stroke-width="1.5"/>
+  <path d="M70 128 L130 128" stroke="#8B4513" stroke-width="1.5"/>
+  
+  <!-- Dots pattern -->
+  <circle cx="75" cy="100" r="1.5" fill="#8B4513"/>
+  <circle cx="85" cy="100" r="1.5" fill="#8B4513"/>
+  <circle cx="95" cy="100" r="1.5" fill="#8B4513"/>
+  <circle cx="105" cy="100" r="1.5" fill="#8B4513"/>
+  <circle cx="115" cy="100" r="1.5" fill="#8B4513"/>
+  <circle cx="125" cy="100" r="1.5" fill="#8B4513"/>
+  
+  <!-- Side decorative elements -->
+  <path d="M50 105 L45 100 L50 95 L55 100 Z" fill="#4A5568"/>
+  <path d="M150 105 L145 100 L150 95 L155 100 Z" fill="#4A5568"/>
+  
+  <!-- Base line -->
+  <path d="M60 150 Q100 155 140 150" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <!-- Arabic text placeholder area -->
+  <rect x="40" y="160" width="120" height="30" fill="none"/>
+</svg>

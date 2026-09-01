@@ -1,0 +1,56 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8E7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FAF3E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5E6D3;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Pottery pattern -->
+    <pattern id="potteryPattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <circle cx="100" cy="100" r="60" fill="none" stroke="#DEB887" stroke-width="1" opacity="0.3"/>
+      <circle cx="100" cy="100" r="40" fill="none" stroke="#DEB887" stroke-width="1" opacity="0.2"/>
+      <circle cx="100" cy="100" r="20" fill="none" stroke="#DEB887" stroke-width="1" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+  
+  <!-- Pattern overlay -->
+  <rect width="1920" height="1080" fill="url(#potteryPattern)"/>
+  
+  <!-- Decorative pottery silhouettes -->
+  <g opacity="0.1" fill="#8B4513">
+    <!-- Large vase left -->
+    <ellipse cx="200" cy="900" rx="80" ry="20"/>
+    <path d="M140 900 L150 600 Q200 550 250 600 L260 900"/>
+    
+    <!-- Medium pot center-left -->
+    <ellipse cx="400" cy="950" rx="60" ry="15"/>
+    <path d="M350 950 L360 750 Q400 720 440 750 L450 950"/>
+    
+    <!-- Small cup center -->
+    <ellipse cx="600" cy="980" rx="40" ry="10"/>
+    <path d="M570 980 L575 880 Q600 865 625 880 L630 980"/>
+    
+    <!-- Tall vase right -->
+    <ellipse cx="1600" cy="850" rx="70" ry="18"/>
+    <path d="M1540 850 L1550 500 Q1600 450 1650 500 L1660 850"/>
+    
+    <!-- Medium pot right -->
+    <ellipse cx="1750" cy="920" rx="55" ry="14"/>
+    <path d="M1705 920 L1715 700 Q1750 670 1785 700 L1795 920"/>
+  </g>
+  
+  <!-- Subtle texture -->
+  <filter id="noise">
+    <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.03"/>
+    </feComponentTransfer>
+  </filter>
+  <rect width="1920" height="1080" filter="url(#noise)" opacity="0.5"/>
+</svg>
