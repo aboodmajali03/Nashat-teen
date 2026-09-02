@@ -52,8 +52,17 @@ export default function Header({ cartCount = 0 }: HeaderProps) {
             ))}
           </nav>
 
-          {/* Cart & Mobile Menu */}
+          {/* Facebook & Cart & Mobile Menu */}
           <div className="flex items-center gap-4">
+            <a
+              href="https://wa.me/962795226962"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 text-[#3E2723] hover:text-[#25D366] transition-colors text-lg font-bold"
+              aria-label="واتساب"
+            >
+              WA
+            </a>
             <Link
               href="/cart"
               className="relative p-2 text-[#3E2723] hover:text-[#8B4513] transition-colors"
