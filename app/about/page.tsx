@@ -67,14 +67,14 @@ export default function AboutPage() {
             </div>
 
             <h2 className="text-3xl font-bold text-[#8B4513] text-center mb-8">
-              لماذا "نقشة طين"؟
+              لماذا &quot;نقشة طين&quot;؟
             </h2>
 
             <div className="prose prose-arabic max-w-none space-y-6 text-[#5D4037] text-lg leading-relaxed">
               <p>
-                <strong className="text-[#8B4513]">"نقشة طين"</strong>.. اسم يحمل في حروفه دفء الأرض وجمال الحرفة. 
-                "النقشة" هي تلك اللمسة الفنية التي يتركها الحرفي على الطين،而那些 الخطوط والزخارف التي تحكي قصة 
-                وتعبّر عن هوية. و"الطين" هو الأصل، هو المادة الأولى التي منها بدأ الإنسان يصنع أدواته وجمالياته.
+                <strong className="text-[#8B4513]">&quot;نقشة طين&quot;</strong>.. اسم يحمل في حروفه دفء الأرض وجمال الحرفة. 
+                &quot;النقشة&quot; هي تلك اللمسة الفنية التي يتركها الحرفي على الطين، والخطوط والزخارف التي تحكي قصة 
+                وتعبّر عن هوية. و&quot;الطين&quot; هو الأصل، هو المادة الأولى التي منها بدأ الإنسان يصنع أدواته وجمالياته.
               </p>
 
               <p>
@@ -96,7 +96,7 @@ export default function AboutPage() {
               </p>
 
                 <p className="text-center font-bold text-[#8B4513] text-xl mt-8">
-                "نقشة طين".. حيث تلتقي الأرض بالفن، وتتحول كل قطعة إلى حكاية
+                &quot;نقشة طين&quot;.. حيث تلتقي الأرض بالفن، وتتحول كل قطعة إلى حكاية
               </p>
               <p className="text-center text-[#A0522D] mt-4">
                 من قلب الأردن - الكرك، نصنع لكم أجود المنتجات الفخارية اليدوية
